@@ -28,7 +28,7 @@ class XMLRandomNumberFiller:
         biphasic_pulse_elements = root.findall(".//BiPhasicPulse")
 
         # 生成指定数量的随机数
-        random_numbers = [random.randint(self.random_min, self.random_max) for _ in range(self.random_count)]
+        random_numbers = [random.randint(self.random_min, self.random_max) * 1000 for _ in range(self.random_count)]
 
         # 遍历BiPhasicPulse元素，填充随机数
         for i, biphasic_pulse_element in enumerate(biphasic_pulse_elements):
@@ -37,10 +37,10 @@ class XMLRandomNumberFiller:
             amplitude_pulse2 = biphasic_pulse_element.find('AmplitudePulse2')
 
             # 将随机数填充到对应元素中
-            amplitude_pulse1.text = str(random_numbers[i])
-            amplitude_pulse2.text = str(-random_numbers[i])
+            amplitude_pulse1.text = str(-random_numbers[i])
+            amplitude_pulse2.text = str(random_numbers[i])
 
-            loguru.logger.debug(f"num={i+1} : AmplitudePulse1={str(random_numbers[i])}, AmplitudePulse2={str(-random_numbers[i])}")
+            loguru.logger.debug(f"num={i+1} : AmplitudePulse1={str(-random_numbers[i])}, AmplitudePulse1={str(random_numbers[i])}")
 
         # 保存修改后的XML文件
         tree.write(self.output_file_path, encoding='utf-8', xml_declaration=True)
