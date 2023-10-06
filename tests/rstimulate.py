@@ -4,6 +4,8 @@ import os
 import loguru
 import datetime
 
+
+
 class XMLRandomNumberFiller:
     def __init__(self, config):
         self.input_file_path = config['input_file_path']
