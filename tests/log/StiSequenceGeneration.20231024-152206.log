@@ -1,0 +1,469 @@
+2023-10-24 15:22:06.203 | DEBUG    | __main__:generate_random_stimulus_sequence:176 - total_time_span=300
+2023-10-24 15:22:06.204 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=1, type_block=constant, constant_duration=0.5, time_span=0.5
+2023-10-24 15:22:06.204 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=2, type_block=pulse, AmplitudePulse1=-595, AmplitudePulse2=595, time_span=0.5004
+2023-10-24 15:22:06.204 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=3, type_block=constant, constant_duration=0.2, time_span=0.7003999999999999
+2023-10-24 15:22:06.204 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=4, type_block=pulse, AmplitudePulse1=-401, AmplitudePulse2=401, time_span=0.7007999999999999
+2023-10-24 15:22:06.210 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=5, type_block=constant, constant_duration=0.5, time_span=1.2007999999999999
+2023-10-24 15:22:06.210 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=6, type_block=pulse, AmplitudePulse1=-926, AmplitudePulse2=926, time_span=1.2011999999999998
+2023-10-24 15:22:06.210 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=7, type_block=constant, constant_duration=0.5, time_span=1.7011999999999998
+2023-10-24 15:22:06.210 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=8, type_block=pulse, AmplitudePulse1=-996, AmplitudePulse2=996, time_span=1.7015999999999998
+2023-10-24 15:22:06.211 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=9, type_block=constant, constant_duration=1.0, time_span=2.7016
+2023-10-24 15:22:06.211 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=10, type_block=pulse, AmplitudePulse1=-866, AmplitudePulse2=866, time_span=2.702
+2023-10-24 15:22:06.211 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=11, type_block=constant, constant_duration=0.1, time_span=2.802
+2023-10-24 15:22:06.211 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=12, type_block=pulse, AmplitudePulse1=-740, AmplitudePulse2=740, time_span=2.8024
+2023-10-24 15:22:06.211 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=13, type_block=constant, constant_duration=5.0, time_span=7.8024000000000004
+2023-10-24 15:22:06.211 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=14, type_block=pulse, AmplitudePulse1=-516, AmplitudePulse2=516, time_span=7.8028
+2023-10-24 15:22:06.212 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=15, type_block=constant, constant_duration=0.1, time_span=7.9028
+2023-10-24 15:22:06.212 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=16, type_block=pulse, AmplitudePulse1=-656, AmplitudePulse2=656, time_span=7.9032
+2023-10-24 15:22:06.212 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=17, type_block=constant, constant_duration=0.1, time_span=8.0032
+2023-10-24 15:22:06.212 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=18, type_block=pulse, AmplitudePulse1=-421, AmplitudePulse2=421, time_span=8.0036
+2023-10-24 15:22:06.212 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=19, type_block=constant, constant_duration=0.2, time_span=8.2036
+2023-10-24 15:22:06.212 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=20, type_block=pulse, AmplitudePulse1=-693, AmplitudePulse2=693, time_span=8.204
+2023-10-24 15:22:06.213 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=21, type_block=constant, constant_duration=1.0, time_span=9.204
+2023-10-24 15:22:06.213 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=22, type_block=pulse, AmplitudePulse1=-500, AmplitudePulse2=500, time_span=9.204400000000001
+2023-10-24 15:22:06.214 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=23, type_block=constant, constant_duration=0.1, time_span=9.304400000000001
+2023-10-24 15:22:06.214 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=24, type_block=pulse, AmplitudePulse1=-905, AmplitudePulse2=905, time_span=9.304800000000002
+2023-10-24 15:22:06.214 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=25, type_block=constant, constant_duration=0.2, time_span=9.504800000000001
+2023-10-24 15:22:06.214 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=26, type_block=pulse, AmplitudePulse1=-434, AmplitudePulse2=434, time_span=9.505200000000002
+2023-10-24 15:22:06.214 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=27, type_block=constant, constant_duration=0.2, time_span=9.705200000000001
+2023-10-24 15:22:06.215 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=28, type_block=pulse, AmplitudePulse1=-763, AmplitudePulse2=763, time_span=9.705600000000002
+2023-10-24 15:22:06.215 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=29, type_block=constant, constant_duration=0.5, time_span=10.205600000000002
+2023-10-24 15:22:06.215 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=30, type_block=pulse, AmplitudePulse1=-912, AmplitudePulse2=912, time_span=10.206000000000003
+2023-10-24 15:22:06.215 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=31, type_block=constant, constant_duration=0.2, time_span=10.406000000000002
+2023-10-24 15:22:06.215 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=32, type_block=pulse, AmplitudePulse1=-567, AmplitudePulse2=567, time_span=10.406400000000003
+2023-10-24 15:22:06.215 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=33, type_block=constant, constant_duration=0.1, time_span=10.506400000000003
+2023-10-24 15:22:06.216 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=34, type_block=pulse, AmplitudePulse1=-817, AmplitudePulse2=817, time_span=10.506800000000004
+2023-10-24 15:22:06.216 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=35, type_block=constant, constant_duration=5.0, time_span=15.506800000000004
+2023-10-24 15:22:06.216 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=36, type_block=pulse, AmplitudePulse1=-771, AmplitudePulse2=771, time_span=15.507200000000005
+2023-10-24 15:22:06.216 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=37, type_block=constant, constant_duration=5.0, time_span=20.507200000000005
+2023-10-24 15:22:06.216 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=38, type_block=pulse, AmplitudePulse1=-421, AmplitudePulse2=421, time_span=20.507600000000004
+2023-10-24 15:22:06.216 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=39, type_block=constant, constant_duration=5.0, time_span=25.507600000000004
+2023-10-24 15:22:06.217 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=40, type_block=pulse, AmplitudePulse1=-500, AmplitudePulse2=500, time_span=25.508000000000003
+2023-10-24 15:22:06.217 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=41, type_block=constant, constant_duration=0.5, time_span=26.008000000000003
+2023-10-24 15:22:06.217 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=42, type_block=pulse, AmplitudePulse1=-773, AmplitudePulse2=773, time_span=26.0084
+2023-10-24 15:22:06.217 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=43, type_block=constant, constant_duration=0.5, time_span=26.5084
+2023-10-24 15:22:06.217 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=44, type_block=pulse, AmplitudePulse1=-793, AmplitudePulse2=793, time_span=26.5088
+2023-10-24 15:22:06.217 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=45, type_block=constant, constant_duration=1.0, time_span=27.5088
+2023-10-24 15:22:06.217 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=46, type_block=pulse, AmplitudePulse1=-670, AmplitudePulse2=670, time_span=27.5092
+2023-10-24 15:22:06.218 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=47, type_block=constant, constant_duration=5.0, time_span=32.5092
+2023-10-24 15:22:06.218 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=48, type_block=pulse, AmplitudePulse1=-447, AmplitudePulse2=447, time_span=32.5096
+2023-10-24 15:22:06.218 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=49, type_block=constant, constant_duration=1.0, time_span=33.5096
+2023-10-24 15:22:06.218 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=50, type_block=pulse, AmplitudePulse1=-792, AmplitudePulse2=792, time_span=33.51
+2023-10-24 15:22:06.218 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=51, type_block=constant, constant_duration=0.1, time_span=33.61
+2023-10-24 15:22:06.218 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=52, type_block=pulse, AmplitudePulse1=-661, AmplitudePulse2=661, time_span=33.6104
+2023-10-24 15:22:06.219 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=53, type_block=constant, constant_duration=0.5, time_span=34.1104
+2023-10-24 15:22:06.219 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=54, type_block=pulse, AmplitudePulse1=-956, AmplitudePulse2=956, time_span=34.1108
+2023-10-24 15:22:06.219 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=55, type_block=constant, constant_duration=5.0, time_span=39.1108
+2023-10-24 15:22:06.219 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=56, type_block=pulse, AmplitudePulse1=-985, AmplitudePulse2=985, time_span=39.1112
+2023-10-24 15:22:06.219 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=57, type_block=constant, constant_duration=0.2, time_span=39.3112
+2023-10-24 15:22:06.219 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=58, type_block=pulse, AmplitudePulse1=-617, AmplitudePulse2=617, time_span=39.3116
+2023-10-24 15:22:06.219 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=59, type_block=constant, constant_duration=5.0, time_span=44.3116
+2023-10-24 15:22:06.220 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=60, type_block=pulse, AmplitudePulse1=-783, AmplitudePulse2=783, time_span=44.312
+2023-10-24 15:22:06.220 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=61, type_block=constant, constant_duration=5.0, time_span=49.312
+2023-10-24 15:22:06.220 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=62, type_block=pulse, AmplitudePulse1=-453, AmplitudePulse2=453, time_span=49.3124
+2023-10-24 15:22:06.220 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=63, type_block=constant, constant_duration=0.1, time_span=49.4124
+2023-10-24 15:22:06.220 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=64, type_block=pulse, AmplitudePulse1=-817, AmplitudePulse2=817, time_span=49.4128
+2023-10-24 15:22:06.220 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=65, type_block=constant, constant_duration=0.1, time_span=49.5128
+2023-10-24 15:22:06.220 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=66, type_block=pulse, AmplitudePulse1=-698, AmplitudePulse2=698, time_span=49.5132
+2023-10-24 15:22:06.221 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=67, type_block=constant, constant_duration=5.0, time_span=54.5132
+2023-10-24 15:22:06.221 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=68, type_block=pulse, AmplitudePulse1=-954, AmplitudePulse2=954, time_span=54.5136
+2023-10-24 15:22:06.221 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=69, type_block=constant, constant_duration=1.0, time_span=55.5136
+2023-10-24 15:22:06.221 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=70, type_block=pulse, AmplitudePulse1=-756, AmplitudePulse2=756, time_span=55.513999999999996
+2023-10-24 15:22:06.221 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=71, type_block=constant, constant_duration=0.2, time_span=55.714
+2023-10-24 15:22:06.221 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=72, type_block=pulse, AmplitudePulse1=-495, AmplitudePulse2=495, time_span=55.7144
+2023-10-24 15:22:06.222 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=73, type_block=constant, constant_duration=0.1, time_span=55.8144
+2023-10-24 15:22:06.222 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=74, type_block=pulse, AmplitudePulse1=-629, AmplitudePulse2=629, time_span=55.8148
+2023-10-24 15:22:06.222 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=75, type_block=constant, constant_duration=5.0, time_span=60.8148
+2023-10-24 15:22:06.222 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=76, type_block=pulse, AmplitudePulse1=-686, AmplitudePulse2=686, time_span=60.8152
+2023-10-24 15:22:06.222 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=77, type_block=constant, constant_duration=5.0, time_span=65.8152
+2023-10-24 15:22:06.222 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=78, type_block=pulse, AmplitudePulse1=-876, AmplitudePulse2=876, time_span=65.8156
+2023-10-24 15:22:06.222 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=79, type_block=constant, constant_duration=5.0, time_span=70.8156
+2023-10-24 15:22:06.223 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=80, type_block=pulse, AmplitudePulse1=-696, AmplitudePulse2=696, time_span=70.816
+2023-10-24 15:22:06.223 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=81, type_block=constant, constant_duration=0.5, time_span=71.316
+2023-10-24 15:22:06.223 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=82, type_block=pulse, AmplitudePulse1=-588, AmplitudePulse2=588, time_span=71.3164
+2023-10-24 15:22:06.223 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=83, type_block=constant, constant_duration=0.1, time_span=71.4164
+2023-10-24 15:22:06.223 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=84, type_block=pulse, AmplitudePulse1=-850, AmplitudePulse2=850, time_span=71.4168
+2023-10-24 15:22:06.223 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=85, type_block=constant, constant_duration=0.2, time_span=71.6168
+2023-10-24 15:22:06.224 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=86, type_block=pulse, AmplitudePulse1=-461, AmplitudePulse2=461, time_span=71.6172
+2023-10-24 15:22:06.224 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=87, type_block=constant, constant_duration=0.5, time_span=72.1172
+2023-10-24 15:22:06.224 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=88, type_block=pulse, AmplitudePulse1=-709, AmplitudePulse2=709, time_span=72.1176
+2023-10-24 15:22:06.224 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=89, type_block=constant, constant_duration=0.2, time_span=72.3176
+2023-10-24 15:22:06.224 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=90, type_block=pulse, AmplitudePulse1=-904, AmplitudePulse2=904, time_span=72.318
+2023-10-24 15:22:06.224 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=91, type_block=constant, constant_duration=0.2, time_span=72.518
+2023-10-24 15:22:06.224 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=92, type_block=pulse, AmplitudePulse1=-738, AmplitudePulse2=738, time_span=72.5184
+2023-10-24 15:22:06.225 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=93, type_block=constant, constant_duration=0.2, time_span=72.7184
+2023-10-24 15:22:06.225 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=94, type_block=pulse, AmplitudePulse1=-610, AmplitudePulse2=610, time_span=72.7188
+2023-10-24 15:22:06.225 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=95, type_block=constant, constant_duration=0.5, time_span=73.2188
+2023-10-24 15:22:06.225 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=96, type_block=pulse, AmplitudePulse1=-635, AmplitudePulse2=635, time_span=73.2192
+2023-10-24 15:22:06.225 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=97, type_block=constant, constant_duration=0.5, time_span=73.7192
+2023-10-24 15:22:06.225 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=98, type_block=pulse, AmplitudePulse1=-920, AmplitudePulse2=920, time_span=73.7196
+2023-10-24 15:22:06.225 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=99, type_block=constant, constant_duration=0.1, time_span=73.8196
+2023-10-24 15:22:06.226 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=100, type_block=pulse, AmplitudePulse1=-452, AmplitudePulse2=452, time_span=73.82
+2023-10-24 15:22:06.226 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=101, type_block=constant, constant_duration=0.5, time_span=74.32
+2023-10-24 15:22:06.226 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=102, type_block=pulse, AmplitudePulse1=-815, AmplitudePulse2=815, time_span=74.32039999999999
+2023-10-24 15:22:06.226 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=103, type_block=constant, constant_duration=1.0, time_span=75.32039999999999
+2023-10-24 15:22:06.226 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=104, type_block=pulse, AmplitudePulse1=-937, AmplitudePulse2=937, time_span=75.32079999999999
+2023-10-24 15:22:06.226 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=105, type_block=constant, constant_duration=1.0, time_span=76.32079999999999
+2023-10-24 15:22:06.227 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=106, type_block=pulse, AmplitudePulse1=-667, AmplitudePulse2=667, time_span=76.32119999999999
+2023-10-24 15:22:06.227 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=107, type_block=constant, constant_duration=5.0, time_span=81.32119999999999
+2023-10-24 15:22:06.227 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=108, type_block=pulse, AmplitudePulse1=-492, AmplitudePulse2=492, time_span=81.32159999999999
+2023-10-24 15:22:06.227 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=109, type_block=constant, constant_duration=5.0, time_span=86.32159999999999
+2023-10-24 15:22:06.227 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=110, type_block=pulse, AmplitudePulse1=-587, AmplitudePulse2=587, time_span=86.32199999999999
+2023-10-24 15:22:06.227 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=111, type_block=constant, constant_duration=0.2, time_span=86.52199999999999
+2023-10-24 15:22:06.227 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=112, type_block=pulse, AmplitudePulse1=-419, AmplitudePulse2=419, time_span=86.52239999999999
+2023-10-24 15:22:06.228 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=113, type_block=constant, constant_duration=5.0, time_span=91.52239999999999
+2023-10-24 15:22:06.228 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=114, type_block=pulse, AmplitudePulse1=-713, AmplitudePulse2=713, time_span=91.52279999999999
+2023-10-24 15:22:06.228 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=115, type_block=constant, constant_duration=0.2, time_span=91.72279999999999
+2023-10-24 15:22:06.228 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=116, type_block=pulse, AmplitudePulse1=-581, AmplitudePulse2=581, time_span=91.72319999999999
+2023-10-24 15:22:06.228 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=117, type_block=constant, constant_duration=1.0, time_span=92.72319999999999
+2023-10-24 15:22:06.228 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=118, type_block=pulse, AmplitudePulse1=-769, AmplitudePulse2=769, time_span=92.72359999999999
+2023-10-24 15:22:06.229 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=119, type_block=constant, constant_duration=0.5, time_span=93.22359999999999
+2023-10-24 15:22:06.229 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=120, type_block=pulse, AmplitudePulse1=-466, AmplitudePulse2=466, time_span=93.22399999999999
+2023-10-24 15:22:06.229 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=121, type_block=constant, constant_duration=0.2, time_span=93.42399999999999
+2023-10-24 15:22:06.229 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=122, type_block=pulse, AmplitudePulse1=-474, AmplitudePulse2=474, time_span=93.42439999999999
+2023-10-24 15:22:06.229 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=123, type_block=constant, constant_duration=1.0, time_span=94.42439999999999
+2023-10-24 15:22:06.229 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=124, type_block=pulse, AmplitudePulse1=-517, AmplitudePulse2=517, time_span=94.42479999999999
+2023-10-24 15:22:06.229 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=125, type_block=constant, constant_duration=0.2, time_span=94.6248
+2023-10-24 15:22:06.230 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=126, type_block=pulse, AmplitudePulse1=-465, AmplitudePulse2=465, time_span=94.62519999999999
+2023-10-24 15:22:06.230 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=127, type_block=constant, constant_duration=0.5, time_span=95.12519999999999
+2023-10-24 15:22:06.230 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=128, type_block=pulse, AmplitudePulse1=-829, AmplitudePulse2=829, time_span=95.12559999999999
+2023-10-24 15:22:06.230 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=129, type_block=constant, constant_duration=5.0, time_span=100.12559999999999
+2023-10-24 15:22:06.230 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=130, type_block=pulse, AmplitudePulse1=-609, AmplitudePulse2=609, time_span=100.12599999999999
+2023-10-24 15:22:06.230 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=131, type_block=constant, constant_duration=0.2, time_span=100.326
+2023-10-24 15:22:06.231 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=132, type_block=pulse, AmplitudePulse1=-679, AmplitudePulse2=679, time_span=100.32639999999999
+2023-10-24 15:22:06.231 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=133, type_block=constant, constant_duration=0.2, time_span=100.5264
+2023-10-24 15:22:06.231 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=134, type_block=pulse, AmplitudePulse1=-554, AmplitudePulse2=554, time_span=100.5268
+2023-10-24 15:22:06.231 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=135, type_block=constant, constant_duration=1.0, time_span=101.5268
+2023-10-24 15:22:06.231 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=136, type_block=pulse, AmplitudePulse1=-1000, AmplitudePulse2=1000, time_span=101.5272
+2023-10-24 15:22:06.231 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=137, type_block=constant, constant_duration=1.0, time_span=102.5272
+2023-10-24 15:22:06.232 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=138, type_block=pulse, AmplitudePulse1=-589, AmplitudePulse2=589, time_span=102.52759999999999
+2023-10-24 15:22:06.232 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=139, type_block=constant, constant_duration=1.0, time_span=103.52759999999999
+2023-10-24 15:22:06.232 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=140, type_block=pulse, AmplitudePulse1=-881, AmplitudePulse2=881, time_span=103.52799999999999
+2023-10-24 15:22:06.232 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=141, type_block=constant, constant_duration=0.1, time_span=103.62799999999999
+2023-10-24 15:22:06.232 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=142, type_block=pulse, AmplitudePulse1=-975, AmplitudePulse2=975, time_span=103.62839999999998
+2023-10-24 15:22:06.232 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=143, type_block=constant, constant_duration=0.5, time_span=104.12839999999998
+2023-10-24 15:22:06.232 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=144, type_block=pulse, AmplitudePulse1=-724, AmplitudePulse2=724, time_span=104.12879999999998
+2023-10-24 15:22:06.233 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=145, type_block=constant, constant_duration=1.0, time_span=105.12879999999998
+2023-10-24 15:22:06.233 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=146, type_block=pulse, AmplitudePulse1=-670, AmplitudePulse2=670, time_span=105.12919999999998
+2023-10-24 15:22:06.233 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=147, type_block=constant, constant_duration=0.5, time_span=105.62919999999998
+2023-10-24 15:22:06.233 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=148, type_block=pulse, AmplitudePulse1=-976, AmplitudePulse2=976, time_span=105.62959999999998
+2023-10-24 15:22:06.233 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=149, type_block=constant, constant_duration=0.1, time_span=105.72959999999998
+2023-10-24 15:22:06.233 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=150, type_block=pulse, AmplitudePulse1=-902, AmplitudePulse2=902, time_span=105.72999999999998
+2023-10-24 15:22:06.233 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=151, type_block=constant, constant_duration=0.5, time_span=106.22999999999998
+2023-10-24 15:22:06.234 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=152, type_block=pulse, AmplitudePulse1=-416, AmplitudePulse2=416, time_span=106.23039999999997
+2023-10-24 15:22:06.234 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=153, type_block=constant, constant_duration=1.0, time_span=107.23039999999997
+2023-10-24 15:22:06.234 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=154, type_block=pulse, AmplitudePulse1=-776, AmplitudePulse2=776, time_span=107.23079999999997
+2023-10-24 15:22:06.234 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=155, type_block=constant, constant_duration=5.0, time_span=112.23079999999997
+2023-10-24 15:22:06.234 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=156, type_block=pulse, AmplitudePulse1=-590, AmplitudePulse2=590, time_span=112.23119999999997
+2023-10-24 15:22:06.234 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=157, type_block=constant, constant_duration=1.0, time_span=113.23119999999997
+2023-10-24 15:22:06.234 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=158, type_block=pulse, AmplitudePulse1=-579, AmplitudePulse2=579, time_span=113.23159999999997
+2023-10-24 15:22:06.235 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=159, type_block=constant, constant_duration=0.1, time_span=113.33159999999997
+2023-10-24 15:22:06.235 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=160, type_block=pulse, AmplitudePulse1=-508, AmplitudePulse2=508, time_span=113.33199999999997
+2023-10-24 15:22:06.235 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=161, type_block=constant, constant_duration=0.1, time_span=113.43199999999996
+2023-10-24 15:22:06.235 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=162, type_block=pulse, AmplitudePulse1=-494, AmplitudePulse2=494, time_span=113.43239999999996
+2023-10-24 15:22:06.235 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=163, type_block=constant, constant_duration=0.2, time_span=113.63239999999996
+2023-10-24 15:22:06.235 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=164, type_block=pulse, AmplitudePulse1=-941, AmplitudePulse2=941, time_span=113.63279999999996
+2023-10-24 15:22:06.236 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=165, type_block=constant, constant_duration=0.5, time_span=114.13279999999996
+2023-10-24 15:22:06.236 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=166, type_block=pulse, AmplitudePulse1=-964, AmplitudePulse2=964, time_span=114.13319999999996
+2023-10-24 15:22:06.236 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=167, type_block=constant, constant_duration=5.0, time_span=119.13319999999996
+2023-10-24 15:22:06.236 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=168, type_block=pulse, AmplitudePulse1=-640, AmplitudePulse2=640, time_span=119.13359999999996
+2023-10-24 15:22:06.236 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=169, type_block=constant, constant_duration=0.2, time_span=119.33359999999996
+2023-10-24 15:22:06.236 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=170, type_block=pulse, AmplitudePulse1=-926, AmplitudePulse2=926, time_span=119.33399999999996
+2023-10-24 15:22:06.236 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=171, type_block=constant, constant_duration=0.5, time_span=119.83399999999996
+2023-10-24 15:22:06.236 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=172, type_block=pulse, AmplitudePulse1=-665, AmplitudePulse2=665, time_span=119.83439999999996
+2023-10-24 15:22:06.237 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=173, type_block=constant, constant_duration=0.2, time_span=120.03439999999996
+2023-10-24 15:22:06.237 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=174, type_block=pulse, AmplitudePulse1=-428, AmplitudePulse2=428, time_span=120.03479999999996
+2023-10-24 15:22:06.237 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=175, type_block=constant, constant_duration=0.1, time_span=120.13479999999996
+2023-10-24 15:22:06.237 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=176, type_block=pulse, AmplitudePulse1=-596, AmplitudePulse2=596, time_span=120.13519999999995
+2023-10-24 15:22:06.237 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=177, type_block=constant, constant_duration=0.1, time_span=120.23519999999995
+2023-10-24 15:22:06.237 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=178, type_block=pulse, AmplitudePulse1=-838, AmplitudePulse2=838, time_span=120.23559999999995
+2023-10-24 15:22:06.237 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=179, type_block=constant, constant_duration=0.2, time_span=120.43559999999995
+2023-10-24 15:22:06.238 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=180, type_block=pulse, AmplitudePulse1=-989, AmplitudePulse2=989, time_span=120.43599999999995
+2023-10-24 15:22:06.238 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=181, type_block=constant, constant_duration=0.1, time_span=120.53599999999994
+2023-10-24 15:22:06.238 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=182, type_block=pulse, AmplitudePulse1=-887, AmplitudePulse2=887, time_span=120.53639999999994
+2023-10-24 15:22:06.238 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=183, type_block=constant, constant_duration=0.5, time_span=121.03639999999994
+2023-10-24 15:22:06.238 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=184, type_block=pulse, AmplitudePulse1=-896, AmplitudePulse2=896, time_span=121.03679999999994
+2023-10-24 15:22:06.238 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=185, type_block=constant, constant_duration=0.5, time_span=121.53679999999994
+2023-10-24 15:22:06.239 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=186, type_block=pulse, AmplitudePulse1=-429, AmplitudePulse2=429, time_span=121.53719999999994
+2023-10-24 15:22:06.239 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=187, type_block=constant, constant_duration=0.5, time_span=122.03719999999994
+2023-10-24 15:22:06.239 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=188, type_block=pulse, AmplitudePulse1=-624, AmplitudePulse2=624, time_span=122.03759999999994
+2023-10-24 15:22:06.239 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=189, type_block=constant, constant_duration=0.1, time_span=122.13759999999994
+2023-10-24 15:22:06.239 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=190, type_block=pulse, AmplitudePulse1=-458, AmplitudePulse2=458, time_span=122.13799999999993
+2023-10-24 15:22:06.239 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=191, type_block=constant, constant_duration=1.0, time_span=123.13799999999993
+2023-10-24 15:22:06.239 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=192, type_block=pulse, AmplitudePulse1=-675, AmplitudePulse2=675, time_span=123.13839999999993
+2023-10-24 15:22:06.240 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=193, type_block=constant, constant_duration=0.1, time_span=123.23839999999993
+2023-10-24 15:22:06.240 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=194, type_block=pulse, AmplitudePulse1=-889, AmplitudePulse2=889, time_span=123.23879999999993
+2023-10-24 15:22:06.240 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=195, type_block=constant, constant_duration=0.5, time_span=123.73879999999993
+2023-10-24 15:22:06.240 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=196, type_block=pulse, AmplitudePulse1=-750, AmplitudePulse2=750, time_span=123.73919999999993
+2023-10-24 15:22:06.240 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=197, type_block=constant, constant_duration=0.5, time_span=124.23919999999993
+2023-10-24 15:22:06.240 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=198, type_block=pulse, AmplitudePulse1=-584, AmplitudePulse2=584, time_span=124.23959999999992
+2023-10-24 15:22:06.241 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=199, type_block=constant, constant_duration=1.0, time_span=125.23959999999992
+2023-10-24 15:22:06.241 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=200, type_block=pulse, AmplitudePulse1=-804, AmplitudePulse2=804, time_span=125.23999999999992
+2023-10-24 15:22:06.241 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=201, type_block=constant, constant_duration=1.0, time_span=126.23999999999992
+2023-10-24 15:22:06.241 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=202, type_block=pulse, AmplitudePulse1=-961, AmplitudePulse2=961, time_span=126.24039999999992
+2023-10-24 15:22:06.241 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=203, type_block=constant, constant_duration=0.2, time_span=126.44039999999993
+2023-10-24 15:22:06.241 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=204, type_block=pulse, AmplitudePulse1=-568, AmplitudePulse2=568, time_span=126.44079999999992
+2023-10-24 15:22:06.241 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=205, type_block=constant, constant_duration=0.1, time_span=126.54079999999992
+2023-10-24 15:22:06.242 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=206, type_block=pulse, AmplitudePulse1=-922, AmplitudePulse2=922, time_span=126.54119999999992
+2023-10-24 15:22:06.242 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=207, type_block=constant, constant_duration=0.2, time_span=126.74119999999992
+2023-10-24 15:22:06.242 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=208, type_block=pulse, AmplitudePulse1=-869, AmplitudePulse2=869, time_span=126.74159999999992
+2023-10-24 15:22:06.242 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=209, type_block=constant, constant_duration=1.0, time_span=127.74159999999992
+2023-10-24 15:22:06.242 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=210, type_block=pulse, AmplitudePulse1=-461, AmplitudePulse2=461, time_span=127.74199999999992
+2023-10-24 15:22:06.242 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=211, type_block=constant, constant_duration=0.1, time_span=127.84199999999991
+2023-10-24 15:22:06.243 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=212, type_block=pulse, AmplitudePulse1=-679, AmplitudePulse2=679, time_span=127.84239999999991
+2023-10-24 15:22:06.243 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=213, type_block=constant, constant_duration=0.5, time_span=128.3423999999999
+2023-10-24 15:22:06.243 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=214, type_block=pulse, AmplitudePulse1=-814, AmplitudePulse2=814, time_span=128.34279999999993
+2023-10-24 15:22:06.243 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=215, type_block=constant, constant_duration=0.2, time_span=128.54279999999991
+2023-10-24 15:22:06.243 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=216, type_block=pulse, AmplitudePulse1=-757, AmplitudePulse2=757, time_span=128.54319999999993
+2023-10-24 15:22:06.243 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=217, type_block=constant, constant_duration=0.5, time_span=129.04319999999993
+2023-10-24 15:22:06.243 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=218, type_block=pulse, AmplitudePulse1=-656, AmplitudePulse2=656, time_span=129.04359999999994
+2023-10-24 15:22:06.244 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=219, type_block=constant, constant_duration=0.2, time_span=129.24359999999993
+2023-10-24 15:22:06.244 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=220, type_block=pulse, AmplitudePulse1=-464, AmplitudePulse2=464, time_span=129.24399999999994
+2023-10-24 15:22:06.244 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=221, type_block=constant, constant_duration=0.5, time_span=129.74399999999994
+2023-10-24 15:22:06.244 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=222, type_block=pulse, AmplitudePulse1=-932, AmplitudePulse2=932, time_span=129.74439999999996
+2023-10-24 15:22:06.244 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=223, type_block=constant, constant_duration=5.0, time_span=134.74439999999996
+2023-10-24 15:22:06.244 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=224, type_block=pulse, AmplitudePulse1=-574, AmplitudePulse2=574, time_span=134.74479999999997
+2023-10-24 15:22:06.245 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=225, type_block=constant, constant_duration=0.5, time_span=135.24479999999997
+2023-10-24 15:22:06.245 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=226, type_block=pulse, AmplitudePulse1=-888, AmplitudePulse2=888, time_span=135.24519999999998
+2023-10-24 15:22:06.245 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=227, type_block=constant, constant_duration=0.1, time_span=135.34519999999998
+2023-10-24 15:22:06.246 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=228, type_block=pulse, AmplitudePulse1=-509, AmplitudePulse2=509, time_span=135.3456
+2023-10-24 15:22:06.246 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=229, type_block=constant, constant_duration=0.5, time_span=135.8456
+2023-10-24 15:22:06.246 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=230, type_block=pulse, AmplitudePulse1=-431, AmplitudePulse2=431, time_span=135.846
+2023-10-24 15:22:06.246 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=231, type_block=constant, constant_duration=5.0, time_span=140.846
+2023-10-24 15:22:06.246 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=232, type_block=pulse, AmplitudePulse1=-408, AmplitudePulse2=408, time_span=140.84640000000002
+2023-10-24 15:22:06.246 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=233, type_block=constant, constant_duration=5.0, time_span=145.84640000000002
+2023-10-24 15:22:06.247 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=234, type_block=pulse, AmplitudePulse1=-892, AmplitudePulse2=892, time_span=145.84680000000003
+2023-10-24 15:22:06.247 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=235, type_block=constant, constant_duration=0.5, time_span=146.34680000000003
+2023-10-24 15:22:06.247 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=236, type_block=pulse, AmplitudePulse1=-724, AmplitudePulse2=724, time_span=146.34720000000004
+2023-10-24 15:22:06.247 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=237, type_block=constant, constant_duration=0.1, time_span=146.44720000000004
+2023-10-24 15:22:06.247 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=238, type_block=pulse, AmplitudePulse1=-818, AmplitudePulse2=818, time_span=146.44760000000005
+2023-10-24 15:22:06.247 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=239, type_block=constant, constant_duration=0.5, time_span=146.94760000000005
+2023-10-24 15:22:06.248 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=240, type_block=pulse, AmplitudePulse1=-553, AmplitudePulse2=553, time_span=146.94800000000006
+2023-10-24 15:22:06.248 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=241, type_block=constant, constant_duration=0.2, time_span=147.14800000000005
+2023-10-24 15:22:06.248 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=242, type_block=pulse, AmplitudePulse1=-917, AmplitudePulse2=917, time_span=147.14840000000007
+2023-10-24 15:22:06.248 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=243, type_block=constant, constant_duration=5.0, time_span=152.14840000000007
+2023-10-24 15:22:06.248 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=244, type_block=pulse, AmplitudePulse1=-827, AmplitudePulse2=827, time_span=152.14880000000008
+2023-10-24 15:22:06.248 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=245, type_block=constant, constant_duration=0.1, time_span=152.24880000000007
+2023-10-24 15:22:06.248 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=246, type_block=pulse, AmplitudePulse1=-442, AmplitudePulse2=442, time_span=152.2492000000001
+2023-10-24 15:22:06.249 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=247, type_block=constant, constant_duration=0.2, time_span=152.44920000000008
+2023-10-24 15:22:06.249 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=248, type_block=pulse, AmplitudePulse1=-717, AmplitudePulse2=717, time_span=152.4496000000001
+2023-10-24 15:22:06.249 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=249, type_block=constant, constant_duration=1.0, time_span=153.4496000000001
+2023-10-24 15:22:06.249 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=250, type_block=pulse, AmplitudePulse1=-894, AmplitudePulse2=894, time_span=153.4500000000001
+2023-10-24 15:22:06.249 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=251, type_block=constant, constant_duration=0.1, time_span=153.5500000000001
+2023-10-24 15:22:06.250 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=252, type_block=pulse, AmplitudePulse1=-767, AmplitudePulse2=767, time_span=153.5504000000001
+2023-10-24 15:22:06.250 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=253, type_block=constant, constant_duration=1.0, time_span=154.5504000000001
+2023-10-24 15:22:06.250 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=254, type_block=pulse, AmplitudePulse1=-714, AmplitudePulse2=714, time_span=154.55080000000012
+2023-10-24 15:22:06.250 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=255, type_block=constant, constant_duration=0.2, time_span=154.7508000000001
+2023-10-24 15:22:06.250 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=256, type_block=pulse, AmplitudePulse1=-508, AmplitudePulse2=508, time_span=154.75120000000013
+2023-10-24 15:22:06.250 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=257, type_block=constant, constant_duration=0.1, time_span=154.85120000000012
+2023-10-24 15:22:06.250 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=258, type_block=pulse, AmplitudePulse1=-948, AmplitudePulse2=948, time_span=154.85160000000013
+2023-10-24 15:22:06.251 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=259, type_block=constant, constant_duration=1.0, time_span=155.85160000000013
+2023-10-24 15:22:06.251 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=260, type_block=pulse, AmplitudePulse1=-498, AmplitudePulse2=498, time_span=155.85200000000015
+2023-10-24 15:22:06.251 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=261, type_block=constant, constant_duration=5.0, time_span=160.85200000000015
+2023-10-24 15:22:06.251 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=262, type_block=pulse, AmplitudePulse1=-973, AmplitudePulse2=973, time_span=160.85240000000016
+2023-10-24 15:22:06.251 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=263, type_block=constant, constant_duration=0.1, time_span=160.95240000000015
+2023-10-24 15:22:06.251 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=264, type_block=pulse, AmplitudePulse1=-749, AmplitudePulse2=749, time_span=160.95280000000017
+2023-10-24 15:22:06.252 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=265, type_block=constant, constant_duration=0.1, time_span=161.05280000000016
+2023-10-24 15:22:06.252 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=266, type_block=pulse, AmplitudePulse1=-973, AmplitudePulse2=973, time_span=161.05320000000017
+2023-10-24 15:22:06.252 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=267, type_block=constant, constant_duration=0.5, time_span=161.55320000000017
+2023-10-24 15:22:06.252 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=268, type_block=pulse, AmplitudePulse1=-665, AmplitudePulse2=665, time_span=161.5536000000002
+2023-10-24 15:22:06.252 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=269, type_block=constant, constant_duration=0.5, time_span=162.0536000000002
+2023-10-24 15:22:06.252 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=270, type_block=pulse, AmplitudePulse1=-991, AmplitudePulse2=991, time_span=162.0540000000002
+2023-10-24 15:22:06.252 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=271, type_block=constant, constant_duration=5.0, time_span=167.0540000000002
+2023-10-24 15:22:06.253 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=272, type_block=pulse, AmplitudePulse1=-674, AmplitudePulse2=674, time_span=167.05440000000021
+2023-10-24 15:22:06.253 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=273, type_block=constant, constant_duration=0.5, time_span=167.55440000000021
+2023-10-24 15:22:06.253 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=274, type_block=pulse, AmplitudePulse1=-504, AmplitudePulse2=504, time_span=167.55480000000023
+2023-10-24 15:22:06.253 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=275, type_block=constant, constant_duration=5.0, time_span=172.55480000000023
+2023-10-24 15:22:06.253 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=276, type_block=pulse, AmplitudePulse1=-490, AmplitudePulse2=490, time_span=172.55520000000024
+2023-10-24 15:22:06.253 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=277, type_block=constant, constant_duration=0.5, time_span=173.05520000000024
+2023-10-24 15:22:06.253 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=278, type_block=pulse, AmplitudePulse1=-665, AmplitudePulse2=665, time_span=173.05560000000025
+2023-10-24 15:22:06.254 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=279, type_block=constant, constant_duration=0.2, time_span=173.25560000000024
+2023-10-24 15:22:06.254 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=280, type_block=pulse, AmplitudePulse1=-572, AmplitudePulse2=572, time_span=173.25600000000026
+2023-10-24 15:22:06.254 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=281, type_block=constant, constant_duration=1.0, time_span=174.25600000000026
+2023-10-24 15:22:06.254 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=282, type_block=pulse, AmplitudePulse1=-472, AmplitudePulse2=472, time_span=174.25640000000027
+2023-10-24 15:22:06.254 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=283, type_block=constant, constant_duration=1.0, time_span=175.25640000000027
+2023-10-24 15:22:06.254 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=284, type_block=pulse, AmplitudePulse1=-725, AmplitudePulse2=725, time_span=175.25680000000028
+2023-10-24 15:22:06.255 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=285, type_block=constant, constant_duration=0.5, time_span=175.75680000000028
+2023-10-24 15:22:06.255 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=286, type_block=pulse, AmplitudePulse1=-763, AmplitudePulse2=763, time_span=175.7572000000003
+2023-10-24 15:22:06.255 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=287, type_block=constant, constant_duration=0.5, time_span=176.2572000000003
+2023-10-24 15:22:06.255 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=288, type_block=pulse, AmplitudePulse1=-929, AmplitudePulse2=929, time_span=176.2576000000003
+2023-10-24 15:22:06.255 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=289, type_block=constant, constant_duration=0.2, time_span=176.4576000000003
+2023-10-24 15:22:06.255 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=290, type_block=pulse, AmplitudePulse1=-939, AmplitudePulse2=939, time_span=176.4580000000003
+2023-10-24 15:22:06.255 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=291, type_block=constant, constant_duration=1.0, time_span=177.4580000000003
+2023-10-24 15:22:06.256 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=292, type_block=pulse, AmplitudePulse1=-792, AmplitudePulse2=792, time_span=177.45840000000032
+2023-10-24 15:22:06.256 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=293, type_block=constant, constant_duration=1.0, time_span=178.45840000000032
+2023-10-24 15:22:06.256 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=294, type_block=pulse, AmplitudePulse1=-994, AmplitudePulse2=994, time_span=178.45880000000034
+2023-10-24 15:22:06.256 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=295, type_block=constant, constant_duration=1.0, time_span=179.45880000000034
+2023-10-24 15:22:06.256 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=296, type_block=pulse, AmplitudePulse1=-540, AmplitudePulse2=540, time_span=179.45920000000035
+2023-10-24 15:22:06.256 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=297, type_block=constant, constant_duration=0.1, time_span=179.55920000000035
+2023-10-24 15:22:06.256 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=298, type_block=pulse, AmplitudePulse1=-466, AmplitudePulse2=466, time_span=179.55960000000036
+2023-10-24 15:22:06.257 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=299, type_block=constant, constant_duration=1.0, time_span=180.55960000000036
+2023-10-24 15:22:06.257 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=300, type_block=pulse, AmplitudePulse1=-536, AmplitudePulse2=536, time_span=180.56000000000037
+2023-10-24 15:22:06.257 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=301, type_block=constant, constant_duration=0.1, time_span=180.66000000000037
+2023-10-24 15:22:06.257 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=302, type_block=pulse, AmplitudePulse1=-979, AmplitudePulse2=979, time_span=180.66040000000038
+2023-10-24 15:22:06.257 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=303, type_block=constant, constant_duration=5.0, time_span=185.66040000000038
+2023-10-24 15:22:06.257 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=304, type_block=pulse, AmplitudePulse1=-814, AmplitudePulse2=814, time_span=185.6608000000004
+2023-10-24 15:22:06.258 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=305, type_block=constant, constant_duration=0.5, time_span=186.1608000000004
+2023-10-24 15:22:06.258 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=306, type_block=pulse, AmplitudePulse1=-794, AmplitudePulse2=794, time_span=186.1612000000004
+2023-10-24 15:22:06.258 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=307, type_block=constant, constant_duration=0.5, time_span=186.6612000000004
+2023-10-24 15:22:06.258 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=308, type_block=pulse, AmplitudePulse1=-756, AmplitudePulse2=756, time_span=186.66160000000042
+2023-10-24 15:22:06.258 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=309, type_block=constant, constant_duration=0.2, time_span=186.8616000000004
+2023-10-24 15:22:06.258 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=310, type_block=pulse, AmplitudePulse1=-901, AmplitudePulse2=901, time_span=186.86200000000042
+2023-10-24 15:22:06.258 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=311, type_block=constant, constant_duration=0.1, time_span=186.96200000000042
+2023-10-24 15:22:06.259 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=312, type_block=pulse, AmplitudePulse1=-693, AmplitudePulse2=693, time_span=186.96240000000043
+2023-10-24 15:22:06.259 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=313, type_block=constant, constant_duration=0.1, time_span=187.06240000000042
+2023-10-24 15:22:06.259 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=314, type_block=pulse, AmplitudePulse1=-952, AmplitudePulse2=952, time_span=187.06280000000044
+2023-10-24 15:22:06.259 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=315, type_block=constant, constant_duration=0.1, time_span=187.16280000000043
+2023-10-24 15:22:06.259 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=316, type_block=pulse, AmplitudePulse1=-783, AmplitudePulse2=783, time_span=187.16320000000044
+2023-10-24 15:22:06.259 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=317, type_block=constant, constant_duration=0.5, time_span=187.66320000000044
+2023-10-24 15:22:06.260 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=318, type_block=pulse, AmplitudePulse1=-723, AmplitudePulse2=723, time_span=187.66360000000046
+2023-10-24 15:22:06.260 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=319, type_block=constant, constant_duration=1.0, time_span=188.66360000000046
+2023-10-24 15:22:06.260 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=320, type_block=pulse, AmplitudePulse1=-830, AmplitudePulse2=830, time_span=188.66400000000047
+2023-10-24 15:22:06.260 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=321, type_block=constant, constant_duration=1.0, time_span=189.66400000000047
+2023-10-24 15:22:06.260 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=322, type_block=pulse, AmplitudePulse1=-668, AmplitudePulse2=668, time_span=189.66440000000048
+2023-10-24 15:22:06.260 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=323, type_block=constant, constant_duration=5.0, time_span=194.66440000000048
+2023-10-24 15:22:06.260 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=324, type_block=pulse, AmplitudePulse1=-601, AmplitudePulse2=601, time_span=194.6648000000005
+2023-10-24 15:22:06.261 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=325, type_block=constant, constant_duration=0.2, time_span=194.86480000000049
+2023-10-24 15:22:06.261 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=326, type_block=pulse, AmplitudePulse1=-730, AmplitudePulse2=730, time_span=194.8652000000005
+2023-10-24 15:22:06.261 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=327, type_block=constant, constant_duration=0.5, time_span=195.3652000000005
+2023-10-24 15:22:06.261 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=328, type_block=pulse, AmplitudePulse1=-728, AmplitudePulse2=728, time_span=195.3656000000005
+2023-10-24 15:22:06.261 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=329, type_block=constant, constant_duration=1.0, time_span=196.3656000000005
+2023-10-24 15:22:06.262 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=330, type_block=pulse, AmplitudePulse1=-688, AmplitudePulse2=688, time_span=196.36600000000053
+2023-10-24 15:22:06.262 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=331, type_block=constant, constant_duration=5.0, time_span=201.36600000000053
+2023-10-24 15:22:06.262 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=332, type_block=pulse, AmplitudePulse1=-751, AmplitudePulse2=751, time_span=201.36640000000054
+2023-10-24 15:22:06.262 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=333, type_block=constant, constant_duration=0.5, time_span=201.86640000000054
+2023-10-24 15:22:06.262 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=334, type_block=pulse, AmplitudePulse1=-610, AmplitudePulse2=610, time_span=201.86680000000055
+2023-10-24 15:22:06.262 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=335, type_block=constant, constant_duration=0.2, time_span=202.06680000000054
+2023-10-24 15:22:06.263 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=336, type_block=pulse, AmplitudePulse1=-483, AmplitudePulse2=483, time_span=202.06720000000055
+2023-10-24 15:22:06.263 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=337, type_block=constant, constant_duration=0.2, time_span=202.26720000000054
+2023-10-24 15:22:06.263 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=338, type_block=pulse, AmplitudePulse1=-800, AmplitudePulse2=800, time_span=202.26760000000056
+2023-10-24 15:22:06.263 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=339, type_block=constant, constant_duration=5.0, time_span=207.26760000000056
+2023-10-24 15:22:06.263 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=340, type_block=pulse, AmplitudePulse1=-718, AmplitudePulse2=718, time_span=207.26800000000057
+2023-10-24 15:22:06.263 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=341, type_block=constant, constant_duration=5.0, time_span=212.26800000000057
+2023-10-24 15:22:06.263 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=342, type_block=pulse, AmplitudePulse1=-819, AmplitudePulse2=819, time_span=212.26840000000058
+2023-10-24 15:22:06.264 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=343, type_block=constant, constant_duration=5.0, time_span=217.26840000000058
+2023-10-24 15:22:06.264 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=344, type_block=pulse, AmplitudePulse1=-775, AmplitudePulse2=775, time_span=217.2688000000006
+2023-10-24 15:22:06.264 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=345, type_block=constant, constant_duration=0.5, time_span=217.7688000000006
+2023-10-24 15:22:06.264 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=346, type_block=pulse, AmplitudePulse1=-975, AmplitudePulse2=975, time_span=217.7692000000006
+2023-10-24 15:22:06.264 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=347, type_block=constant, constant_duration=5.0, time_span=222.7692000000006
+2023-10-24 15:22:06.264 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=348, type_block=pulse, AmplitudePulse1=-919, AmplitudePulse2=919, time_span=222.76960000000062
+2023-10-24 15:22:06.264 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=349, type_block=constant, constant_duration=0.5, time_span=223.26960000000062
+2023-10-24 15:22:06.265 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=350, type_block=pulse, AmplitudePulse1=-485, AmplitudePulse2=485, time_span=223.27000000000064
+2023-10-24 15:22:06.265 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=351, type_block=constant, constant_duration=5.0, time_span=228.27000000000064
+2023-10-24 15:22:06.265 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=352, type_block=pulse, AmplitudePulse1=-496, AmplitudePulse2=496, time_span=228.27040000000065
+2023-10-24 15:22:06.265 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=353, type_block=constant, constant_duration=0.1, time_span=228.37040000000064
+2023-10-24 15:22:06.265 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=354, type_block=pulse, AmplitudePulse1=-881, AmplitudePulse2=881, time_span=228.37080000000066
+2023-10-24 15:22:06.265 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=355, type_block=constant, constant_duration=1.0, time_span=229.37080000000066
+2023-10-24 15:22:06.266 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=356, type_block=pulse, AmplitudePulse1=-517, AmplitudePulse2=517, time_span=229.37120000000067
+2023-10-24 15:22:06.266 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=357, type_block=constant, constant_duration=0.1, time_span=229.47120000000066
+2023-10-24 15:22:06.266 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=358, type_block=pulse, AmplitudePulse1=-474, AmplitudePulse2=474, time_span=229.47160000000068
+2023-10-24 15:22:06.266 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=359, type_block=constant, constant_duration=0.1, time_span=229.57160000000067
+2023-10-24 15:22:06.266 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=360, type_block=pulse, AmplitudePulse1=-724, AmplitudePulse2=724, time_span=229.57200000000068
+2023-10-24 15:22:06.266 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=361, type_block=constant, constant_duration=0.5, time_span=230.07200000000068
+2023-10-24 15:22:06.266 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=362, type_block=pulse, AmplitudePulse1=-885, AmplitudePulse2=885, time_span=230.0724000000007
+2023-10-24 15:22:06.267 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=363, type_block=constant, constant_duration=0.2, time_span=230.2724000000007
+2023-10-24 15:22:06.267 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=364, type_block=pulse, AmplitudePulse1=-983, AmplitudePulse2=983, time_span=230.2728000000007
+2023-10-24 15:22:06.267 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=365, type_block=constant, constant_duration=5.0, time_span=235.2728000000007
+2023-10-24 15:22:06.267 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=366, type_block=pulse, AmplitudePulse1=-714, AmplitudePulse2=714, time_span=235.2732000000007
+2023-10-24 15:22:06.267 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=367, type_block=constant, constant_duration=5.0, time_span=240.2732000000007
+2023-10-24 15:22:06.267 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=368, type_block=pulse, AmplitudePulse1=-745, AmplitudePulse2=745, time_span=240.27360000000073
+2023-10-24 15:22:06.267 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=369, type_block=constant, constant_duration=5.0, time_span=245.27360000000073
+2023-10-24 15:22:06.268 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=370, type_block=pulse, AmplitudePulse1=-902, AmplitudePulse2=902, time_span=245.27400000000074
+2023-10-24 15:22:06.268 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=371, type_block=constant, constant_duration=0.5, time_span=245.77400000000074
+2023-10-24 15:22:06.268 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=372, type_block=pulse, AmplitudePulse1=-542, AmplitudePulse2=542, time_span=245.77440000000075
+2023-10-24 15:22:06.268 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=373, type_block=constant, constant_duration=0.2, time_span=245.97440000000074
+2023-10-24 15:22:06.268 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=374, type_block=pulse, AmplitudePulse1=-909, AmplitudePulse2=909, time_span=245.97480000000076
+2023-10-24 15:22:06.268 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=375, type_block=constant, constant_duration=0.2, time_span=246.17480000000074
+2023-10-24 15:22:06.269 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=376, type_block=pulse, AmplitudePulse1=-498, AmplitudePulse2=498, time_span=246.17520000000076
+2023-10-24 15:22:06.269 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=377, type_block=constant, constant_duration=0.2, time_span=246.37520000000075
+2023-10-24 15:22:06.269 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=378, type_block=pulse, AmplitudePulse1=-498, AmplitudePulse2=498, time_span=246.37560000000076
+2023-10-24 15:22:06.269 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=379, type_block=constant, constant_duration=0.2, time_span=246.57560000000075
+2023-10-24 15:22:06.269 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=380, type_block=pulse, AmplitudePulse1=-677, AmplitudePulse2=677, time_span=246.57600000000076
+2023-10-24 15:22:06.269 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=381, type_block=constant, constant_duration=5.0, time_span=251.57600000000076
+2023-10-24 15:22:06.269 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=382, type_block=pulse, AmplitudePulse1=-884, AmplitudePulse2=884, time_span=251.57640000000077
+2023-10-24 15:22:06.270 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=383, type_block=constant, constant_duration=0.1, time_span=251.67640000000077
+2023-10-24 15:22:06.270 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=384, type_block=pulse, AmplitudePulse1=-523, AmplitudePulse2=523, time_span=251.67680000000078
+2023-10-24 15:22:06.270 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=385, type_block=constant, constant_duration=0.1, time_span=251.77680000000078
+2023-10-24 15:22:06.270 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=386, type_block=pulse, AmplitudePulse1=-749, AmplitudePulse2=749, time_span=251.7772000000008
+2023-10-24 15:22:06.270 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=387, type_block=constant, constant_duration=1.0, time_span=252.7772000000008
+2023-10-24 15:22:06.270 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=388, type_block=pulse, AmplitudePulse1=-846, AmplitudePulse2=846, time_span=252.7776000000008
+2023-10-24 15:22:06.271 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=389, type_block=constant, constant_duration=0.1, time_span=252.8776000000008
+2023-10-24 15:22:06.271 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=390, type_block=pulse, AmplitudePulse1=-681, AmplitudePulse2=681, time_span=252.8780000000008
+2023-10-24 15:22:06.271 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=391, type_block=constant, constant_duration=0.5, time_span=253.3780000000008
+2023-10-24 15:22:06.271 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=392, type_block=pulse, AmplitudePulse1=-773, AmplitudePulse2=773, time_span=253.37840000000082
+2023-10-24 15:22:06.271 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=393, type_block=constant, constant_duration=1.0, time_span=254.37840000000082
+2023-10-24 15:22:06.271 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=394, type_block=pulse, AmplitudePulse1=-527, AmplitudePulse2=527, time_span=254.37880000000084
+2023-10-24 15:22:06.271 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=395, type_block=constant, constant_duration=0.1, time_span=254.47880000000083
+2023-10-24 15:22:06.272 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=396, type_block=pulse, AmplitudePulse1=-947, AmplitudePulse2=947, time_span=254.47920000000084
+2023-10-24 15:22:06.272 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=397, type_block=constant, constant_duration=5.0, time_span=259.47920000000084
+2023-10-24 15:22:06.272 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=398, type_block=pulse, AmplitudePulse1=-744, AmplitudePulse2=744, time_span=259.47960000000086
+2023-10-24 15:22:06.272 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=399, type_block=constant, constant_duration=5.0, time_span=264.47960000000086
+2023-10-24 15:22:06.272 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=400, type_block=pulse, AmplitudePulse1=-832, AmplitudePulse2=832, time_span=264.48000000000087
+2023-10-24 15:22:06.272 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=401, type_block=constant, constant_duration=0.1, time_span=264.5800000000009
+2023-10-24 15:22:06.273 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=402, type_block=pulse, AmplitudePulse1=-533, AmplitudePulse2=533, time_span=264.5804000000009
+2023-10-24 15:22:06.273 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=403, type_block=constant, constant_duration=0.5, time_span=265.0804000000009
+2023-10-24 15:22:06.273 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=404, type_block=pulse, AmplitudePulse1=-764, AmplitudePulse2=764, time_span=265.0808000000009
+2023-10-24 15:22:06.273 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=405, type_block=constant, constant_duration=5.0, time_span=270.0808000000009
+2023-10-24 15:22:06.273 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=406, type_block=pulse, AmplitudePulse1=-494, AmplitudePulse2=494, time_span=270.08120000000093
+2023-10-24 15:22:06.273 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=407, type_block=constant, constant_duration=1.0, time_span=271.08120000000093
+2023-10-24 15:22:06.274 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=408, type_block=pulse, AmplitudePulse1=-681, AmplitudePulse2=681, time_span=271.08160000000095
+2023-10-24 15:22:06.274 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=409, type_block=constant, constant_duration=1.0, time_span=272.08160000000095
+2023-10-24 15:22:06.274 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=410, type_block=pulse, AmplitudePulse1=-889, AmplitudePulse2=889, time_span=272.08200000000096
+2023-10-24 15:22:06.274 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=411, type_block=constant, constant_duration=5.0, time_span=277.08200000000096
+2023-10-24 15:22:06.274 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=412, type_block=pulse, AmplitudePulse1=-576, AmplitudePulse2=576, time_span=277.082400000001
+2023-10-24 15:22:06.274 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=413, type_block=constant, constant_duration=0.5, time_span=277.582400000001
+2023-10-24 15:22:06.275 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=414, type_block=pulse, AmplitudePulse1=-870, AmplitudePulse2=870, time_span=277.582800000001
+2023-10-24 15:22:06.275 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=415, type_block=constant, constant_duration=0.5, time_span=278.082800000001
+2023-10-24 15:22:06.275 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=416, type_block=pulse, AmplitudePulse1=-864, AmplitudePulse2=864, time_span=278.083200000001
+2023-10-24 15:22:06.275 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=417, type_block=constant, constant_duration=0.2, time_span=278.283200000001
+2023-10-24 15:22:06.275 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=418, type_block=pulse, AmplitudePulse1=-644, AmplitudePulse2=644, time_span=278.283600000001
+2023-10-24 15:22:06.275 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=419, type_block=constant, constant_duration=1.0, time_span=279.283600000001
+2023-10-24 15:22:06.275 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=420, type_block=pulse, AmplitudePulse1=-796, AmplitudePulse2=796, time_span=279.284000000001
+2023-10-24 15:22:06.276 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=421, type_block=constant, constant_duration=0.1, time_span=279.38400000000104
+2023-10-24 15:22:06.276 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=422, type_block=pulse, AmplitudePulse1=-670, AmplitudePulse2=670, time_span=279.38440000000105
+2023-10-24 15:22:06.276 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=423, type_block=constant, constant_duration=0.5, time_span=279.88440000000105
+2023-10-24 15:22:06.276 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=424, type_block=pulse, AmplitudePulse1=-581, AmplitudePulse2=581, time_span=279.88480000000106
+2023-10-24 15:22:06.276 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=425, type_block=constant, constant_duration=0.2, time_span=280.08480000000105
+2023-10-24 15:22:06.277 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=426, type_block=pulse, AmplitudePulse1=-624, AmplitudePulse2=624, time_span=280.08520000000107
+2023-10-24 15:22:06.277 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=427, type_block=constant, constant_duration=0.1, time_span=280.1852000000011
+2023-10-24 15:22:06.277 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=428, type_block=pulse, AmplitudePulse1=-592, AmplitudePulse2=592, time_span=280.1856000000011
+2023-10-24 15:22:06.277 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=429, type_block=constant, constant_duration=0.5, time_span=280.6856000000011
+2023-10-24 15:22:06.277 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=430, type_block=pulse, AmplitudePulse1=-582, AmplitudePulse2=582, time_span=280.6860000000011
+2023-10-24 15:22:06.277 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=431, type_block=constant, constant_duration=0.1, time_span=280.78600000000114
+2023-10-24 15:22:06.278 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=432, type_block=pulse, AmplitudePulse1=-997, AmplitudePulse2=997, time_span=280.78640000000115
+2023-10-24 15:22:06.278 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=433, type_block=constant, constant_duration=1.0, time_span=281.78640000000115
+2023-10-24 15:22:06.278 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=434, type_block=pulse, AmplitudePulse1=-443, AmplitudePulse2=443, time_span=281.78680000000116
+2023-10-24 15:22:06.278 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=435, type_block=constant, constant_duration=0.2, time_span=281.98680000000115
+2023-10-24 15:22:06.278 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=436, type_block=pulse, AmplitudePulse1=-720, AmplitudePulse2=720, time_span=281.98720000000117
+2023-10-24 15:22:06.278 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=437, type_block=constant, constant_duration=0.2, time_span=282.18720000000116
+2023-10-24 15:22:06.278 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=438, type_block=pulse, AmplitudePulse1=-965, AmplitudePulse2=965, time_span=282.18760000000117
+2023-10-24 15:22:06.279 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=439, type_block=constant, constant_duration=1.0, time_span=283.18760000000117
+2023-10-24 15:22:06.279 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=440, type_block=pulse, AmplitudePulse1=-559, AmplitudePulse2=559, time_span=283.1880000000012
+2023-10-24 15:22:06.279 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=441, type_block=constant, constant_duration=1.0, time_span=284.1880000000012
+2023-10-24 15:22:06.279 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=442, type_block=pulse, AmplitudePulse1=-884, AmplitudePulse2=884, time_span=284.1884000000012
+2023-10-24 15:22:06.279 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=443, type_block=constant, constant_duration=0.2, time_span=284.3884000000012
+2023-10-24 15:22:06.279 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=444, type_block=pulse, AmplitudePulse1=-842, AmplitudePulse2=842, time_span=284.3888000000012
+2023-10-24 15:22:06.280 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=445, type_block=constant, constant_duration=0.1, time_span=284.4888000000012
+2023-10-24 15:22:06.280 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=446, type_block=pulse, AmplitudePulse1=-891, AmplitudePulse2=891, time_span=284.48920000000123
+2023-10-24 15:22:06.280 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=447, type_block=constant, constant_duration=5.0, time_span=289.48920000000123
+2023-10-24 15:22:06.280 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=448, type_block=pulse, AmplitudePulse1=-815, AmplitudePulse2=815, time_span=289.48960000000125
+2023-10-24 15:22:06.280 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=449, type_block=constant, constant_duration=1.0, time_span=290.48960000000125
+2023-10-24 15:22:06.280 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=450, type_block=pulse, AmplitudePulse1=-952, AmplitudePulse2=952, time_span=290.49000000000126
+2023-10-24 15:22:06.281 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=451, type_block=constant, constant_duration=5.0, time_span=295.49000000000126
+2023-10-24 15:22:06.281 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=452, type_block=pulse, AmplitudePulse1=-840, AmplitudePulse2=840, time_span=295.4904000000013
+2023-10-24 15:22:06.281 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=453, type_block=constant, constant_duration=1.0, time_span=296.4904000000013
+2023-10-24 15:22:06.281 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=454, type_block=pulse, AmplitudePulse1=-676, AmplitudePulse2=676, time_span=296.4908000000013
+2023-10-24 15:22:06.281 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=455, type_block=constant, constant_duration=0.1, time_span=296.5908000000013
+2023-10-24 15:22:06.281 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=456, type_block=pulse, AmplitudePulse1=-658, AmplitudePulse2=658, time_span=296.5912000000013
+2023-10-24 15:22:06.282 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=457, type_block=constant, constant_duration=0.1, time_span=296.69120000000134
+2023-10-24 15:22:06.282 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=458, type_block=pulse, AmplitudePulse1=-983, AmplitudePulse2=983, time_span=296.69160000000136
+2023-10-24 15:22:06.282 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=459, type_block=constant, constant_duration=0.1, time_span=296.7916000000014
+2023-10-24 15:22:06.282 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=460, type_block=pulse, AmplitudePulse1=-841, AmplitudePulse2=841, time_span=296.7920000000014
+2023-10-24 15:22:06.282 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=461, type_block=constant, constant_duration=0.1, time_span=296.8920000000014
+2023-10-24 15:22:06.282 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=462, type_block=pulse, AmplitudePulse1=-927, AmplitudePulse2=927, time_span=296.89240000000143
+2023-10-24 15:22:06.282 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=463, type_block=constant, constant_duration=0.5, time_span=297.39240000000143
+2023-10-24 15:22:06.283 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=464, type_block=pulse, AmplitudePulse1=-522, AmplitudePulse2=522, time_span=297.39280000000144
+2023-10-24 15:22:06.283 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=465, type_block=constant, constant_duration=0.1, time_span=297.49280000000147
+2023-10-24 15:22:06.283 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=466, type_block=pulse, AmplitudePulse1=-719, AmplitudePulse2=719, time_span=297.4932000000015
+2023-10-24 15:22:06.283 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=467, type_block=constant, constant_duration=5.0, time_span=302.4932000000015
+2023-10-24 15:22:06.283 | DEBUG    | __main__:generate_random_stimulus_sequence:208 - num=468, type_block=pulse, AmplitudePulse1=-805, AmplitudePulse2=805, time_span=302.4936000000015

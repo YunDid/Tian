@@ -175,6 +175,9 @@ class StiSequenceGeneration:
 
         loguru.logger.debug(f"total_time_span={str(total_time_span)}")
 
+        # 添加 Primitives 节点
+        primitives = ET.SubElement(self.root, "Primitives", Count=str(0))
+
         # 创建两个列表以存储时间点和幅值数据
         time_points = []
         amplitudes = []
@@ -194,16 +197,27 @@ class StiSequenceGeneration:
             time_span += constant_duration
             loguru.logger.debug(f"num={count}, type_block=constant, constant_duration={str(constant_duration)}, time_span={str(time_span)}")
 
+            # 记录时间戳
+            if count != 1:
+                time_points.append(time_points[-1] + constant_duration)  # 转换为秒
+            else:
+                time_points.append(constant_duration)  # 转换为秒
+
             # 创建BiPhasicPulse块
             amplitude_con = amplitude * self.unit_conv_amp
             self.create_biphasic_pulse_block(self.root, amplitude_con)
             count = count + 1
-            time_span += 0.0004  # 每个BiPhasicPulse块持续时间为0.0004秒
+            time_span += 0.0004  # 写死的 之后有需求再改
             loguru.logger.debug(f"num={count}, type_block=pulse, AmplitudePulse1={str(-amplitude)}, AmplitudePulse2={str(amplitude)}, time_span={str(time_span)}")
+
+            # 记录刺激幅值
+            amplitudes.append(amplitude)
 
         # 调整Primitives的Count属性
         primitives = self.root.find("Primitives")
         primitives.set("Count", str(count))
+
+        return time_points, amplitudes
 
     def collect_stimulus_data(self):
         # 创建两个列表以存储时间点和幅值数据
@@ -293,12 +307,12 @@ def main():
 
     sti_Sequence = StiSequenceGeneration(config)
     # sti_Sequence.generate_stisequence()
-    sti_Sequence.generate_random_stimulus_sequence(total_time_span)
-    sti_Sequence.save_to_stsd()
+    time_points, amplitudes = sti_Sequence.generate_random_stimulus_sequence(total_time_span)
+    # sti_Sequence.save_to_stsd()
 
     # 收集时间点和幅值数05
     # time_points, amplitudes = sti_Sequence.collect_stimulus_data()
-    # sti_Sequence.draw_data(time_points, amplitudes)
+    sti_Sequence.draw_data(time_points, amplitudes)
 
 
 if __name__ == "__main__":
