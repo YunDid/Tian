@@ -4,8 +4,6 @@ import os
 import loguru
 import datetime
 
-
-
 class XMLRandomNumberFiller:
     def __init__(self, config):
         self.input_file_path = config['input_file_path']
@@ -42,7 +40,7 @@ class XMLRandomNumberFiller:
             amplitude_pulse1.text = str(-random_numbers[i])
             amplitude_pulse2.text = str(random_numbers[i])
 
-            loguru.logger.debug(f"num={i+1} : AmplitudePulse1={str(-random_numbers[i])}, AmplitudePulse1={str(random_numbers[i])}")
+            loguru.logger.debug(f"num={i+1} : AmplitudePulse1={str(-random_numbers[i])}, AmplitudePulse2={str(random_numbers[i])}")
 
         # 保存修改后的XML文件
         tree.write(self.output_file_path, encoding='utf-8', xml_declaration=True)

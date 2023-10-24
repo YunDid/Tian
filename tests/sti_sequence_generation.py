@@ -4,6 +4,10 @@ import uuid
 import os
 import loguru
 import datetime
+import random
+
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_svg import FigureCanvasSVG
 
 class StiSequenceGeneration:
     def __init__(self, config):
@@ -135,6 +139,7 @@ class StiSequenceGeneration:
             # BigGroup 之间 10s 间隔
             self.create_constant_block(primitives, self.interval_bblock)  # 0幅值，1秒的持续时间
             con_count += 1
+            loguru.logger.debug(f"num={con_count + sti_count}, type_block=constant, constant_duration={str(self.interval_bblock)}")
 
             # 每个 BigGroup 包含4个 MinGroup
             for min_group_num in range(0, self.num_mblock):
@@ -145,20 +150,110 @@ class StiSequenceGeneration:
                     self.create_biphasic_pulse_block(primitives, amplitude_values[stimulate_num])
                     # 计数
                     sti_count += 1
+                    loguru.logger.debug(f"num={con_count + sti_count}, type_block=pulse, AmplitudePulse1={str(-amplitude_values[stimulate_num])}, AmplitudePulse2={str(amplitude_values[stimulate_num])}")
+
                     # 刺激块之间 1s 间隔
                     if sti_count % self.num_sti != 0:
                         self.create_constant_block(primitives, self.interval_sti)
                         con_count += 1
+                        loguru.logger.debug(f"num={con_count + sti_count}, type_block=constant, constant_duration={str(self.interval_sti)}")
 
                 # MinGroup 块之间 5s 间隔
                 if sti_count % (self.num_sti * self.num_mblock) != 0:
                     self.create_constant_block(primitives, self.interval_mblock)
                     con_count += 1
+                    loguru.logger.debug(f"num={con_count + sti_count}, type_block=constant, constant_duration={str(self.interval_mblock)}")
+
         # 计数所有 con+amp 字段个数
         Acount = sti_count + con_count
-
         # 调整 primitives 属性
         primitives.set("Count", str(Acount))
+
+        loguru.logger.debug(f"All nodes have been created. There are {str(Acount)} nodes in total.")
+
+    def generate_random_stimulus_sequence(self, total_time_span):
+
+        loguru.logger.debug(f"total_time_span={str(total_time_span)}")
+
+        # 创建两个列表以存储时间点和幅值数据
+        time_points = []
+        amplitudes = []
+
+        time_span = 0
+        count = 0
+
+        while time_span < total_time_span:
+            # 随机选择Constant块的持续时间（0.1秒到5秒之间）
+            constant_duration = random.choice([0.1, 0.2, 0.5, 1.0, 5.0])
+            # 随机选择BiPhasicPulse块的幅值（-1000mV到1000mV之间）
+            amplitude = random.randint(400, 1000)
+
+            # 创建Constant块
+            self.create_constant_block(self.root, constant_duration)
+            count = count + 1
+            time_span += constant_duration
+            loguru.logger.debug(f"num={count}, type_block=constant, constant_duration={str(constant_duration)}, time_span={str(time_span)}")
+
+            # 创建BiPhasicPulse块
+            amplitude_con = amplitude * self.unit_conv_amp
+            self.create_biphasic_pulse_block(self.root, amplitude_con)
+            count = count + 1
+            time_span += 0.0004  # 每个BiPhasicPulse块持续时间为0.0004秒
+            loguru.logger.debug(f"num={count}, type_block=pulse, AmplitudePulse1={str(-amplitude)}, AmplitudePulse2={str(amplitude)}, time_span={str(time_span)}")
+
+        # 调整Primitives的Count属性
+        primitives = self.root.find("Primitives")
+        primitives.set("Count", str(count))
+
+    def collect_stimulus_data(self):
+        # 创建两个列表以存储时间点和幅值数据
+        time_points = []
+        amplitudes = []
+        sti_count = 0
+
+        # 转换为 mV 并四舍五入
+        amplitude_values = [round(value * self.unit_conv_amp) for value in self.amplitude]
+
+        # 创建10个BigGroup
+        for big_group_num in range(0, self.num_bblock):
+            if big_group_num != 0:
+                time_points.append(time_points[-1] + self.interval_bblock)  # 转换为秒
+            else:
+                time_points.append(self.interval_bblock)  # 转换为秒
+            # 每个 BigGroup 包含4个 MinGroup
+            for min_group_num in range(0, self.num_mblock):
+                # 每个 MinGroup 包含10个 stimulate
+                for stimulate_num in range(0, self.num_sti):
+
+                    amplitudes.append(amplitude_values[stimulate_num])
+                    # 计数
+                    sti_count += 1
+                    # 添加时间点和幅值到列表
+                    if sti_count % self.num_sti != 0:
+                        time_points.append(time_points[-1] + self.interval_sti)  # 转换为秒
+
+                # 添加 MinGroup 之间的时间点
+                if sti_count % (self.num_sti * self.num_mblock) != 0:
+                    time_points.append(time_points[-1] + self.interval_mblock)  # 转换为秒
+
+        return time_points, amplitudes
+
+    def draw_data(self, time_points, amplitudes):
+
+        # 遍历数据点，绘制线段
+        for time, amplitude in zip(time_points, amplitudes):
+            plt.plot([time, time], [-amplitude, amplitude], 'b', lw=0.3)
+
+        # 设置横坐标轴的位置为y=0
+        plt.axhline(0, color='black', lw=1)
+
+        plt.xlabel("Time (s)")
+        plt.ylabel("Amplitude (mV)")
+        plt.title("Stimulus Amplitudes Over Time")
+
+        plt.savefig('your_image.png', dpi=1000, bbox_inches='tight')
+        plt.show()
+
 
 def main():
 
@@ -169,9 +264,9 @@ def main():
                         900.006760248206, 900.911469438098, 900.951607022655, 900.502122023043,
                         900.185532317713, 900.784942242060]
     # 时间间隔 单位：us
-    interval_sti = 1000000
-    interval_mblock = 5000000
-    interval_bblock = 10000000
+    interval_sti = 1
+    interval_mblock = 5
+    interval_bblock = 10
 
     # 刺激序列个数
     num_sti = 10
@@ -191,12 +286,20 @@ def main():
         'num_mblock':num_mblock,
         'num_bblock':num_bblock,
         'encoding': encoding,
-        'unit_conv_amp': 1000
+        'unit_conv_amp': 1
     }
 
+    total_time_span = 5 * 60
+
     sti_Sequence = StiSequenceGeneration(config)
-    sti_Sequence.generate_stisequence()
+    # sti_Sequence.generate_stisequence()
+    sti_Sequence.generate_random_stimulus_sequence(total_time_span)
     sti_Sequence.save_to_stsd()
+
+    # 收集时间点和幅值数05
+    # time_points, amplitudes = sti_Sequence.collect_stimulus_data()
+    # sti_Sequence.draw_data(time_points, amplitudes)
+
 
 if __name__ == "__main__":
 
