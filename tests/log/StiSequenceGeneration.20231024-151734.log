@@ -1,2 +1,0 @@
-2023-10-24 15:17:34.902 | DEBUG    | __main__:generate_random_stimulus_sequence:176 - total_time_span=300
-2023-10-24 15:17:34.902 | DEBUG    | __main__:generate_random_stimulus_sequence:195 - num=1, type_block=constant, constant_duration=5.0, time_span=5.0
