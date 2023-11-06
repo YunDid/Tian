@@ -43,7 +43,7 @@ class DataAnalysis:
             rows_to_plot = list(range(num_rows))
 
         # 创建一个1x2的子图布局
-        fig, axes = plt.subplots(1, 3, figsize=(12, 5))
+        fig, axes = plt.subplots(1, len(rows), figsize=(12, 5))
 
         for i, row in enumerate(rows_to_plot):
             color = np.random.rand(3, )  # 随机选择颜色 rgb

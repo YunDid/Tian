@@ -17,7 +17,7 @@ def main():
     if dataset is not None:
 
         # 绘制指定通道的数据
-        rows_to_plot = [0,1,2]
+        # rows_to_plot = [0,1,2,4]
         # analyzer.plot_dataset_subplot(dataset,rows_to_plot)
 
         # 统计指定通道额数据出现次数
